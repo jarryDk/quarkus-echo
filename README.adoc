@@ -1,15 +1,30 @@
 # quarkus-echo project
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This project is just do a echo of the request.
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+Supported methods
+
+- GET
+- POST
+- PUT
+- DELETE
+- OPTIONS
+- HEAD
+- TRACE
+
+
+Requirements
+
+- JDK 11
 
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
-```
+
+[source,bash]
+----
 ./mvnw quarkus:dev
-```
+----
 
 ## Packaging and running the application
 
